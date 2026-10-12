@@ -1,0 +1,8 @@
+# A short demo: show R1's routes, cut a link, watch the routes change.
+table R1
+path R1 R6
+fail R3 R5
+table R1
+path R1 R6
+restore R3 R5
+path R1 R6

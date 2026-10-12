@@ -1,0 +1,4 @@
+build/
+*.exe
+router_sim
+run_tests
